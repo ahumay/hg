@@ -70,4 +70,5 @@ if __name__ == "__main__":
     checkcode.checks.append(('perf.py', r'contrib/perf.py$', '',
                              checkcode.pyfilters, perfpypats))
 
+    
     sys.exit(checkcode.main())
